@@ -31,6 +31,7 @@ public class NewBehaviourScript : MonoBehaviour
         {
             if (go.GetComponent<SpriteRenderer>() != null)
             {
+                
 
                 Sprite(go.GetComponent<SpriteRenderer>());
 
@@ -52,4 +53,6 @@ public class NewBehaviourScript : MonoBehaviour
         tran.Rotate(angle, 0, 0);
         tran.position = new Vector3(0, tran.position.y +1 *Time.deltaTime,tran.position.z);
     }
+    
+ 
 }

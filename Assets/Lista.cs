@@ -12,6 +12,7 @@ public class Lista : MonoBehaviour
         List<int> dwojki = new List<int>();
         List<int> trojki = new List<int>();
 
+
         
         
 
